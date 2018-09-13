@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: #eee;
+}
+
+
+
+/*    NAVIGATION BAR    */
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    height: 40px;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-family: "Raleway", serif;
+    text-transform: uppercase;
+}
+
+ul li {
+    font-size: 26px;
+    text-transform: uppercase;
+    padding-top: 0px;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid orange;
+}
+
+
+
+/*    SECTION 1 HEADER    */
+
+.header {
+    position: relative;
+    background: url(../images/01.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -20px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: "Raleway", serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    transform: translate(50% 50%);
+}
+
+.header .btn {
+    position: absolute;
+    bottom: 30%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    background: rgba(0, 0, 0, 10);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: 2px 5px 5px;
+    border: 2px solid #fff;
+    color: #f4983d;
+    border-radius: 50%;
+    padding: 15px 20px;
+}
+
+.header .btn:hover {
+    position: absolute;
+    background: #f4983d;
+    color: #fff;
+    border: 2px solid #f4983d;
+    border-radius: 50%;
+}
+
+/*    MEDIA QUERIE FOR THE HEADER     */
+
+@media (max-width: 768px) {
+    .header {
+        position: relative;
+    }
+    .header h1 {
+        position: absolute;
+        right: 9%;
+        transform: translate(0%, 0%);
+        text-align: center;
+    }
+}
+
+
+/*    SECTION 2 FIRST CONTENT    */
+
+.content1 {
+    position: relative;
+    height: 50vh;
+}
+
+.content1 h3 {
+    position: absolute;
+    top: 5%;
+    right: 51%;
+    transform: translate(50%, 50%);
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-weight: 900;
+}
+
+.content1 h1 {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+}
+
+.content1 .stars {
+    bottom: 58%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    letter-spacing: 0.9em;
+}
+
+.content1 p span {
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+    text-align: center;
+    transform: translate(50%, 50%);
+}
+
+.content1 .btn {
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: 2px 5px 5px;
+    border: 2px solid #fff;
+    color: #f4983d;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 10);
+}
+
+.content1 .btn:hover {
+    background: #f4983d;
+    color: #fff;
+    border: 2px solid #f4983d;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+/*  MEDIA QUERIE FOR SECTION 2 FIRST CONTENT */
+
+@media (max-width: 768px) {
+    .content1 {
+        position: relative;
+    }
+    .content1 h3 {
+        position: absolute;
+        right: 50%;
+        top: 0%;
+    }
+    .content1 h1 {
+        right: 50%;
+        top: 05%;
+        text-align: center;
+    }
+    .content1 .stars {
+        position: absolute;
+        top: 40%;
+        right: 49%;
+    }
+    .content1 p span {
+        position: absolute;
+        top: 40%;
+    }
+    .content1 .btn {
+        position: absolute;
+        bottom: 10%;
+    }
+}
+@media (max-width: 500px) {
+    .content1 {
+        height: 75vh;
+    }
+    .content1 h3 {
+        text-align: center;
+    }
+}
+
+/*======================================*/
+
+/*    BG-IMG    */
+
+.bg-img {
+    background: url(../images/09.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+/*========================================*/
+
+/*    SECTION 3 CONTENT 2    */
+
+.content2 h3 {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.content2 .p1 {
+    text-align: center;
+}
+
+<!------ TESTING CODE DO NOT DELET THEM -------- > content2 h3 {
+    position: absolute;
+    top: 1%;
+    right: 51%;
+    transform: translate(50%, 50%);
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-weight: 300;
+}
+
+content2 .p1 {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+    text-align: center;
+    transform: translate(50%, 50%);
+}
+
+.row {
+    bottom: 0%;
+    margin: 0;
+}
+
+.col-md-4 a {
+    text-decoration: none;
+}
+
+.price {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: 2px 5px 5px;
+    border: 2px solid #fff;
+    color: #f4983d;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 10);
+    width: 20%;
+    text-decoration: none;
+}
+
+/*    MEDIA QUERIE FOR SECTION 3 CONTENT 2    */
+
+@media (max-with: 567px) {
+    .content2 {
+        position: relative;
+        height: 2000vh;
+    }
+}
+
+/*    SECTION 4 THIRD CONTENT    */
+
+/* Slideshow container */
+
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+
+/* Slides */
+
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+
+q {
+    font-style: italic;
+}
+
+/* Add a blue color to the author */
+
+.author {
+    color: cornflowerblue;
+}
+
+/*    SECTION 5 FOURTH CONTENT    */
+.content5 h2 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Raleway", serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.content5 h2::after {
+    position: absolute;
+    content: "";
+    border: 2px solid #f4983d;
+    left: 20%;
+    right: 0;
+    bottom: 0%;
+    transform: translate(100%, 100%);
+    width: 20%;
+}
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 0 10px;    
+    margin-top: .5em;
+   
+}
+.card-img-top {
+    width: 100%;
+}
+.card-body {
+    text-align: center;
+}
+.card-title {
+    color: #f4983d;
+    font-size: 1.5em;
+}
+.card-text {
+    padding: 1em;
+}
+.card-body .btn {
+    color: #f4983d;
+}
+
+/*    MEDIA QUERIE FOR SECTION 5 FOURTH CONTENT    */
+@media (max-width: 768px) {
+    .card-box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/*    SECTION 6 FITH CONTENT    */
+.content5 {
+    margin-bottom: 2em;
+}
+.contact p {
+    text-align: center;
+}
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap:  1em;
+}
+.contact-form .btn {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: 2px 5px 5px;
+    border: 2px solid #fff;
+    color: #f4983d;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 10);
+    text-decoration: none;
+}
+
+.contact-img {
+    background: url(../images/08.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 60vh;
+}
+
+/*    SECTION 7 SIXTH CONTENT     */
+
+.footer {
+    position: relative;
+    height: 60px;
+    background-color: #2d2d2d;
+    color: #fff;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.date .social {
+    position: absolute;
+}
+
+.footer .date {
+    position: absolute;
+    
+}
+.date .fa {
+    color: #f4983d;
+}
+.date, .social {
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social {
+    right: 0;
+    top: 0;
+    position: absolute;
+   
+}
+.social .fa {
+     padding-left: 25px;
+    height: 25px;
+    color: #f4983d;
+    font-size: 20px;
+}
+
+/*    LAST MEDIA QUERIE    */
+@media (max-width: 768px) {
+    .footer {
+        height: 20vh;
+    }
+}
+@media (max-width: 500px) {
+    .footer {
+        height: 20vh;
+    }
+    .date {
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    
+    .social {
+        position: absolute;
+        top: 50%;
+        left: 28%;
+    }
+}
+
